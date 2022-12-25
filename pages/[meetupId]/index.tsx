@@ -67,6 +67,7 @@ export const getStaticProps = async (context: any) => {
         image: selectedMeetup?.image,
       },
     },
+    revalidate: 1,
   };
 };
 

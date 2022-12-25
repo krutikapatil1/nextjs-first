@@ -47,7 +47,7 @@ export const getStaticProps = async () => {
         image: meetupObj.image,
       })),
     },
-    revalidate: 10,
+    revalidate: 1,
   };
 };
 
